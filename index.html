@@ -11,14 +11,14 @@
 
 <body>
   <!--Container-->
-  <div class="w-4/5 m-auto">
+  <div class="md:w-4/5 w-11/12 m-auto">
     <!--Titre-->
-    <h5 class="text-3xl font-bold leading-none mt-3">Statistic</h5>
+    <h5 class="text-3xl font-bold leading-none mt-5">Statistic</h5>
 
     
 <!--Navbar-->
 <nav class="bg-white border-gray-200">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto mt-5">
     <a href="#">
     </a>
     <!--Bouton Responsive-->
@@ -88,32 +88,32 @@
 
 
     <!--Stats tables-->
-    <div class="flex flex-row justify-center space-x-3 mt-3">
-      <div class="max-w-56 w-full bg-gray-200 rounded-lg shadow md:p-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-5">
+      <div class="w-full bg-gray-200 rounded-lg shadow p-4">
         <h5 class="text-lg font-bold leading-none text-gray-900 ">Total Booking</h5>
         <h5 class="text-center mt-5 text-3xl font-bold text-gray-900">25</h5>
       </div>
-      <div class="max-w-56 w-full bg-gray-200 rounded-lg shadow md:p-4">
+      <div class="w-full bg-gray-200 rounded-lg shadow p-4">
         <h5 class="text-lg font-bold leading-none text-gray-900">Total Guest</h5>
         <h5 class="text-center mt-5 text-3xl font-bold text-gray-900">33</h5>
       </div>
-      <div class="max-w-56 w-full bg-gray-200 rounded-lg shadow md:p-4">
+      <div class="w-full bg-gray-200 rounded-lg shadow p-4">
         <h5 class="text-lg font-bold leading-none text-gray-900">Check-in</h5>
         <h5 class="text-center mt-5 text-3xl font-bold text-gray-900">11</h5>
       </div>
-      <div class="max-w-56 w-full bg-gray-200 rounded-lg shadow md:p-4">
+      <div class="w-full bg-gray-200 rounded-lg shadow p-4">
         <h5 class="text-lg font-bold leading-none text-gray-900">Check-out</h5>
         <h5 class="text-center mt-5 text-3xl font-bold text-gray-900">8</h5>
       </div>
-      <div class="max-w-56 w-full bg-gray-200 rounded-lg shadow md:p-4">
+      <div class="w-full bg-gray-200 rounded-lg shadow p-4">
         <h5 class="text-lg font-bold leading-none text-gray-900">Canceled</h5>
         <h5 class="text-center mt-5 text-3xl font-bold text-gray-900">3</h5>
       </div>
     </div>
 
     <!--Radial container-->
-    <div class="flex flex-row justify-center space-x-5 mt-5">
-      <div class="max-w-xl w-full bg-gray-100 rounded-lg shadow p-4 md:p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
+      <div class="w-full bg-gray-100 rounded-lg shadow p-4 md:p-6">
         <div class="flex justify-between mb-3">
           <div class="flex items-center">
             <div class="flex justify-center items-center">
@@ -148,7 +148,7 @@
       </div>
 
       <!--Donut container-->
-      <div class="max-w-xl w-full rounded-lg shadow bg-gray-100 p-4 md:p-6">
+      <div class="w-full rounded-lg shadow bg-gray-100 p-4 md:p-6">
         <div class="flex justify-between mb-3">
           <div class="flex justify-center items-center">
             <h5 class="text-xl font-bold leading-none pe-1">Bookings by channel</h5>
@@ -181,6 +181,7 @@
           <!-- Donut Chart -->
           <div class="py-6" id="donut-chart"></div>
         </div>
+      </div>
       </div>
 
 
